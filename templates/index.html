@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYTEBOT</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <button id="info-button" class="info-button">?</button>
+    <div class="tooltip" id="tooltip">You Can Use Our Bot To Chat Any Time!</div>
+    <style>
+        /* Update the CSS for styling to match GPT chat style */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1f1f1f; /* Dark background color */
+            color: #fff; /* Text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .chat-container {
+            max-width: 600px; /* Adjust the width as needed */
+            background-color: #292b2c; /* Chat container background color */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .left-panel {
+            padding: 20px;
+            background-color: #212529; /* Left panel background color */
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .page-description {
+            text-align: center;
+        }
+        .right-panel {
+            padding: 20px;
+            background-color: #343a40; /* Right panel background color */
+            display: flex;
+            flex-direction: column;
+        }
+        .chat-header {
+            background-color: #343a40; /* Header background color */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .chat-body {
+            padding: 10px;
+            max-height: 400px; /* Adjust this value as needed */
+            overflow-y: auto;
+        }
+        .message {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            clear: both;
+            overflow: hidden;
+        }
+        .user-message {
+            background-color: #007bff; /* User message background color */
+            color: #fff;
+            float: right;
+        }
+        .bot-message {
+            background-color: #28a745; /* Bot message background color */
+            color: #fff;
+            float: left;
+        }
+        .user-message-time, .bot-message-time {
+            font-size: 0.8rem;
+            color: #fff; /* Message timestamp color */
+            margin-top: 5px;
+            text-align: right;
+        }
+        .chat-input {
+            padding: 10px;
+            border: none;
+            background-color: #343a40; /* Input background color */
+            color: #fff;
+            width: 95%;
+            outline: none;
+        }
+        /* CSS for the info button and tooltip */
+        .info-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 24px;
+            width: 40px;
+            height: 40px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .tooltip {
+            display: none;
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+    </style>
+</head>
+    <body>
+        <div class="chat-container">
+            <div class="left-panel">
+                
+                <div class="page-description">
+                    <h2>BYTEBOT</h2>
+                    <p>Intelligent Assistant</p>
+                </div>
+            </div>
+            <div class="right-panel">
+                <div class="chat-header">
+                    ByteBot
+                </div>
+                <div class="chat-body" id="chat-body">
+                    <!-- Chat messages will be displayed here -->
+                </div>
+                <div class="typing-indicator">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <input type="text" class="chat-input" id="user-input" placeholder="Type a message..." onkeydown="sendMessage(event)">
+            </div>
+        </div>
+
+    <script>
+        // JavaScript code for interacting with the chatbot
+
+        const chatBody = document.getElementById("chat-body");
+        const userInput = document.getElementById("user-input");
+        const typingIndicator = document.querySelector(".typing-indicator");
+
+        // JavaScript code for showing/hiding the tooltip
+        const infoButton = document.getElementById("info-button");
+        const tooltip = document.getElementById("tooltip");
+
+        infoButton.addEventListener("click", function () {
+            if (tooltip.style.display === "block") {
+                tooltip.style.display = "none";
+            } else {
+                tooltip.style.display = "block";
+            }
+        });
+
+        // Function to add a message to the chat
+        function addMessage(message, sender) {
+            // Remove the typing indicator when a message is added
+            typingIndicator.style.display = "none";
+
+            const messageDiv = document.createElement("div");
+            messageDiv.classList.add("message");
+            messageDiv.classList.add(sender === "user" ? "user-message" : "bot-message");
+
+            const messageContentDiv = document.createElement("div");
+            messageContentDiv.classList.add("message-content");
+            messageContentDiv.textContent = message;
+
+            const messageTimeDiv = document.createElement("div");
+            messageTimeDiv.classList.add(sender === "user" ? "user-message-time" : "bot-message-time");
+            messageTimeDiv.textContent = getCurrentTime();
+
+            messageDiv.appendChild(messageContentDiv);
+            messageDiv.appendChild(messageTimeDiv);
+
+            chatBody.appendChild(messageDiv);
+
+            // Scroll to the bottom of the chat box
+            chatBody.scrollTop = chatBody.scrollHeight;
+        }
+
+        // Function to get the current time
+        function getCurrentTime() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, "0");
+            const minutes = now.getMinutes().toString().padStart(2, "0");
+            return `${hours}:${minutes}`;
+        }
+
+        // Function to simulate bot typing
+        function simulateBotTyping() {
+            typingIndicator.style.display = "flex";
+        }
+
+// Function to send user input to the server and receive a response
+function sendMessage(event) {
+    
+    if (event.key === "Enter") {
+        const userMessage = userInput.value;
+        if (userMessage.trim() === "") {
+            return;
+        }
+        
+        addMessage("You: " + userMessage, "user");
+        userInput.value = "";
+        
+
+        // Simulate bot typing
+        simulateBotTyping();
+
+        // Display the typing indicator while waiting for the response
+        typingIndicator.style.display = "block";
+
+        // Send user input to the server
+        setTimeout(() => {
+        fetch("/chat", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                user_input: userMessage,
+                user_id: "user123", // You can replace this with actual user identification
+            }),
+        })
+        .then((response) => response.json())
+        .then((data) => {
+            const botResponse = data.bot_response;
+            addMessage(botResponse, "bot");
+        })
+        .catch((error) => {
+            console.error("Error sending message:", error);
+        });
+        }, 500);
+    }
+}
+</script>
+</body>
+</html>
