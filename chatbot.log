@@ -1352,3 +1352,6 @@ INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:34:33] "POST /chat HTTP/1.1" 200 -
 INFO:root:User Input: hi, Bot Response: BB: Hey! How can I assist you?, Context: {'previous_user_input': 'hi'}
 INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:34:34] "POST /chat HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:43:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 02:02:03] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Hi There!, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 02:02:06] "POST /chat HTTP/1.1" 200 -
