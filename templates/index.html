@@ -8,7 +8,6 @@
     <button id="info-button" class="info-button">?</button>
     <div class="tooltip" id="tooltip">You Can Use Our Bot To Chat Any Time!</div>
     <style>
-        /* Update the CSS for styling to match GPT chat style */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -19,9 +18,12 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            max-width: 1200px; /* Set your desired maximum width here */
+            margin: 0 auto; /* Center the content horizontally within the maximum width */
         }
         .chat-container {
-            max-width: 600px; /* Adjust the width as needed */
+            width: 600px; /* Set the desired width */
+            
             background-color: #292b2c; /* Chat container background color */
             border-radius: 10px; /* Rounded corners */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -29,6 +31,7 @@
             display: flex;
             flex-direction: column;
         }
+        
         .left-panel {
             padding: 20px;
             background-color: #212529; /* Left panel background color */
@@ -114,7 +117,6 @@
             border-radius: 5px;
             font-size: 14px;
         }
-        
     </style>
 </head>
     <body>

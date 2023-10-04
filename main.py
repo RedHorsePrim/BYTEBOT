@@ -4,11 +4,9 @@ import os
 import random
 import torch
 import datetime
-import time
-from nltk.stem import SnowballStemmer
+from nltk.stem import SnowballStemmer  # Added this import
 from aimindmodel import NeuralNet
 from nltk_utils import tokenize, bag_of_words
-import re
 import logging
 
 
@@ -25,8 +23,8 @@ if not os.path.isfile(intents_file) or not os.path.isfile(data_file):
     print("Error: Required data files are missing.")
     exit()
 
+# Initialize Stemmer and Device
 stemmer = SnowballStemmer('english')
-
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Load intents and model data
@@ -55,15 +53,8 @@ user_profiles = {}  # User profiles for personalization
 # Define conversation_log list
 conversation_log = []
 
-# Clear screen function
-def clear_screen():
-    os.system('cls')
-
 # Function to preprocess user input
 def preprocess_input(user_input):
-    """
-    Preprocess user input by tokenizing, stemming, and returning bag of words
-    """
     sentence = tokenize(user_input)
     sentence_words = [stemmer.stem(word) for word in sentence]
     return bag_of_words(sentence_words, all_words)
@@ -90,6 +81,13 @@ def get_bot_response(user_input, user_id):
     # Update context with the current user input
     context["previous_user_input"] = user_input
 
+    if "time" in user_input:
+        now = datetime.datetime.now()
+        return f"{bot_name}: The current time is {now.strftime('%H:%M:%S')}"
+    elif "date" in user_input:
+        now = datetime.datetime.now()
+        return f"{bot_name}: The current date is {now.strftime('%m/%d/%Y')}"
+
     with torch.no_grad():
         output = model(input_data)
         _, predicted = torch.max(output, dim=1)
@@ -109,31 +107,10 @@ def get_bot_response(user_input, user_id):
                         elif "{date}" in response:
                             response = response.format(date=now.strftime("%m/%d/%Y"))
                         return f"{bot_name}: {response}"
-
-                    elif intent["tag"] == "timer":
-                        try:
-                            minutes = int(input("Enter number of minutes: "))
-                            seconds = int(input("Enter number of seconds: "))
-                            total_time = minutes * 60 + seconds
-                            response = f"{bot_name}: Timer set for {minutes} minute(s) and {seconds} second(s)."
-
-                            for remaining_time in range(total_time, 0, -1):
-                                minutes_remaining = remaining_time // 60
-                                seconds_remaining = remaining_time % 60
-                                response += f"\n{bot_name}: {minutes_remaining} minute(s) and {seconds_remaining} second(s) remaining..."
-                                time.sleep(1)
-
-                            response += f"\n{bot_name}: Timer done!"
-                            return response
-
-                        except ValueError:
-                            return f"{bot_name}: Invalid input. Please enter a valid number."
-
                     else:
                         return f"{bot_name}: {random.choice(intent['responses'])}"
         else:
             return random.choice([f"{bot_name}: Sorry, can't understand you", f"{bot_name}: I do not understand...", f"{bot_name}: Not sure I understand"])
-            #return f"{bot_name}: I do not understand..."  
 
 # Main conversation loop "WEB PAGE - التشغيل على الويب"
 @app.route('/')
@@ -147,7 +124,7 @@ def chat():
 
     response = get_bot_response(user_input, user_id)
 
-    #Personalization: Customize the response based on user profiles
+    # Personalization: Customize the response based on user profiles
     response = personalize_response(user_id, response)
 
     log_conversation(user_input, response)

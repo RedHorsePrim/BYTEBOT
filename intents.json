@@ -360,25 +360,6 @@
             "context_set": ""
         },
         {
-            "tag": "timer",
-            "patterns": [
-                "set a timer", 
-                "start a timer", 
-                "set timer", 
-                "timer", 
-                "Timer", 
-                "tm", 
-                "TM"
-            ],
-            "responses": [
-                "Timer is set.", 
-                "Your timer is running.", 
-                "Timer started.", 
-                "I've set the timer for you."
-            ],
-            "context_set": ""
-        },
-        {
             "tag": "custom_dialogue",
             "patterns": [
               "Tell me a joke",

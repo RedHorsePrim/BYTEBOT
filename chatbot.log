@@ -977,3 +977,378 @@ INFO:root:User Input: I'm fine, and you?, Bot Response: None, Context: {'previou
 INFO:werkzeug:127.0.0.1 - - [18/Sep/2023 20:42:41] "POST /chat HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'g:\\Projects\\ByteBot\\main.py', reloading
 INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 479-465-387
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 479-465-387
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:13:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:13:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:User Input: hi, Bot Response: BB: Hi There!, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:13:04] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: how ar you, Bot Response: BB: Just here to chat. How about you?, Context: {'previous_user_input': 'how ar you'}
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:13:10] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: i'm good, Bot Response: BB: Good to know!, Context: {'previous_user_input': "i'm good"}
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:13:17] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:13:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 479-465-387
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:15:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:15:32] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: ÿßŸá, Bot Response: BB: Not sure I understand, Context: {'previous_user_input': 'ÿßŸá'}
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:15:35] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Hey! How can I assist you?, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:15:38] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: time, Bot Response: BB: Today is 10/04/2023, Context: {'previous_user_input': 'time'}
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:15:41] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: tme, Bot Response: BB: I do not understand..., Context: {'previous_user_input': 'tme'}
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:15:46] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: time, Bot Response: BB: Today is 10/04/2023, Context: {'previous_user_input': 'time'}
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:15:49] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: time not date, Bot Response: BB: It's currently 23:15:54, Context: {'previous_user_input': 'time not date'}
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:15:54] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: tm, Bot Response: BB: Your timer is running., Context: {'previous_user_input': 'tm'}
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2023 23:16:19] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 479-465-387
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:46:20] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Hello!, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:46:25] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: tme, Bot Response: BB: Sorry, can't understand you, Context: {'previous_user_input': 'tme'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:46:29] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: time, Bot Response: BB: Today is 10/05/2023, Context: {'previous_user_input': 'time'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:46:35] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: time not date, Bot Response: BB: Today is 10/05/2023, Context: {'previous_user_input': 'time not date'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:46:41] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: time, Bot Response: BB: It's currently 00:46:46, Context: {'previous_user_input': 'time'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:46:46] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: right, Bot Response: BB: I do not understand..., Context: {'previous_user_input': 'right'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:46:49] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'g:\\Projects\\ByteBot\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 479-465-387
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:54:54] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: 4, Bot Response: BB: Not sure I understand, Context: {'previous_user_input': '4'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:54:56] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: «Â, Bot Response: BB: Sorry, can't understand you, Context: {'previous_user_input': '«Â'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:54:58] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Hi there, how can I help?, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:55:00] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hiow, Bot Response: BB: I do not understand..., Context: {'previous_user_input': 'hiow'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:55:03] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: how are yo, Bot Response: BB: I do not understand..., Context: {'previous_user_input': 'how are yo'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:55:08] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: how ar you, Bot Response: BB: I'm fine, and you?, Context: {'previous_user_input': 'how ar you'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:55:13] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: me too, Bot Response: BB: Good to know!, Context: {'previous_user_input': 'me too'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:55:17] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: time, Bot Response: BB: The current time is 00:55:28, Context: {'previous_user_input': 'time'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:55:28] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: date, Bot Response: BB: The current date is 10/05/2023, Context: {'previous_user_input': 'date'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:55:31] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 479-465-387
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:58:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:58:51] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:58:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:58:52] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:58:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:58:53] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:58:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 00:58:54] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:00:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:00:38] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:00:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:00:39] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:00:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:00:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:00:39] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:00:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:00:56] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:00] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:01] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:01] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:02] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:03] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:04] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:38] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:53] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:01:56] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:13] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:13] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:14] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:19] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:20] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:21] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:26] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:28] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:29] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:30] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:03:35] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:04:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:40] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:41] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:50] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:50] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:51] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:51] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:05:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:07:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:07:29] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:07:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:07:29] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:07:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:07:30] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:07:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:07:30] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:07:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:07:45] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:08:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:08:20] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:08:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:08:21] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:08:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:08:21] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:09:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:09:25] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:10:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:10:23] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:root:User Input: «Â, Bot Response: BB: I do not understand..., Context: {'previous_user_input': '«Â'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:10:53] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Good to see you again, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:10:57] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:11:26] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Hello!, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:11:28] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Hello!, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:11:30] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Good to see you again, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:11:31] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: love, Bot Response: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Context: {'previous_user_input': 'love'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:11:38] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is a journey of discovery and growth. It challenges us, transforms us, and leads us to profound moments of connection and understanding., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:11:44] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:12:33] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: dsaf, Bot Response: BB: Not sure I understand, Context: {'previous_user_input': 'dsaf'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:12:36] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:12:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:10] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: dfg., Bot Response: BB: I do not understand..., Context: {'previous_user_input': 'dfg.'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:14] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:17] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: gf, Bot Response: BB: I do not understand..., Context: {'previous_user_input': 'gf'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:19] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:26] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: hhhth, Bot Response: BB: Sorry, can't understand you, Context: {'previous_user_input': 'hhhth'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:29] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love can take many forms, including romantic love, familial love, and platonic love. Each type of love brings its own unique qualities and enriches our lives in different ways., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:31] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:32] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is a journey of discovery and growth. It challenges us, transforms us, and leads us to profound moments of connection and understanding., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:33] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:39] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: In its essence, love is a powerful and positive force that binds people together, fosters understanding, and promotes happiness. It's an integral part of the human experience., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:41] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: True love is often selfless and unconditional. It has the capacity to endure challenges and grow stronger over time. It's a profound connection between individuals that transcends boundaries., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:43] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Throughout history, love has been a central theme in literature, philosophy, religion, and art. It's a universal concept that has inspired countless works of creativity and wisdom., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:44] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:49] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: True love is often selfless and unconditional. It has the capacity to endure challenges and grow stronger over time. It's a profound connection between individuals that transcends boundaries., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:50] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is a complex and profound emotion that can't be easily defined, but it's often described as a deep affection, care, and attachment towards someone or something., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:13:51] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:07] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: In its essence, love is a powerful and positive force that binds people together, fosters understanding, and promotes happiness. It's an integral part of the human experience., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:11] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is a journey of discovery and growth. It challenges us, transforms us, and leads us to profound moments of connection and understanding., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:12] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:30] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Throughout history, love has been a central theme in literature, philosophy, religion, and art. It's a universal concept that has inspired countless works of creativity and wisdom., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:34] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is like a beautiful melody that plays in the heart, filling our lives with meaning and joy. It's a source of inspiration for art, music, literature, and more., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:35] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is a complex and profound emotion that can't be easily defined, but it's often described as a deep affection, care, and attachment towards someone or something., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:35] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:42] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:44] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is a journey of discovery and growth. It challenges us, transforms us, and leads us to profound moments of connection and understanding., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:46] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: True love is often selfless and unconditional. It has the capacity to endure challenges and grow stronger over time. It's a profound connection between individuals that transcends boundaries., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:48] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is like a beautiful melody that plays in the heart, filling our lives with meaning and joy. It's a source of inspiration for art, music, literature, and more., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:14:50] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:15:13] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: True love is often selfless and unconditional. It has the capacity to endure challenges and grow stronger over time. It's a profound connection between individuals that transcends boundaries., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:15:16] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: True love is often selfless and unconditional. It has the capacity to endure challenges and grow stronger over time. It's a profound connection between individuals that transcends boundaries., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:15:17] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: The feeling of love is often accompanied by happiness, compassion, and a sense of belonging. It has the power to heal, nurture, and create a sense of purpose in life., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:15:17] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:15:18] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: In its essence, love is a powerful and positive force that binds people together, fosters understanding, and promotes happiness. It's an integral part of the human experience., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness.BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:15:18] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is a journey of discovery and growth. It challenges us, transforms us, and leads us to profound moments of connection and understanding., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:15:22] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:15:22] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is a complex and profound emotion that can't be easily defined, but it's often described as a deep affection, care, and attachment towards someone or something., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:15:25] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is a journey of discovery and growth. It challenges us, transforms us, and leads us to profound moments of connection and understanding., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:15:26] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness., Bot Response: BB: Love is like a beautiful melody that plays in the heart, filling our lives with meaning and joy. It's a source of inspiration for art, music, literature, and more., Context: {'previous_user_input': "BB: Love encompasses a range of feelings, from affection and passion to warmth and tenderness. It's a force that can bring people closer, provide strength, and inspire acts of kindness."}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:15:26] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:16:06] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: body {     font-family: Arial, sans-serif;     margin: 0;     padding: 0;     background-color: #1f1f1f; /* Dark background color */     color: #fff; /* Text color */     display: flex;     justify-content: center;     align-items: center;     height: 100vh;     max-width: 1200px; /* Set your desired maximum width here */     margin: 0 auto; /* Center the content horizontally within the maximum width */ }, Bot Response: BB: Why did the scarecrow win an award? Because he was outstanding in his field!, Context: {'previous_user_input': 'body {     font-family: Arial, sans-serif;     margin: 0;     padding: 0;     background-color: #1f1f1f; /* Dark background color */     color: #fff; /* Text color */     display: flex;     justify-content: center;     align-items: center;     height: 100vh;     max-width: 1200px; /* Set your desired maximum width here */     margin: 0 auto; /* Center the content horizontally within the maximum width */ }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:16:08] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: body {     font-family: Arial, sans-serif;     margin: 0;     padding: 0;     background-color: #1f1f1f; /* Dark background color */     color: #fff; /* Text color */     display: flex;     justify-content: center;     align-items: center;     height: 100vh;     max-width: 1200px; /* Set your desired maximum width here */     margin: 0 auto; /* Center the content horizontally within the maximum width */ }body {     font-family: Arial, sans-serif;     margin: 0;     padding: 0;     background-color: #1f1f1f; /* Dark background color */     color: #fff; /* Text color */     display: flex;     justify-content: center;     align-items: center;     height: 100vh;     max-width: 1200px; /* Set your desired maximum width here */     margin: 0 auto; /* Center the content horizontally within the maximum width */ }, Bot Response: BB: Sorry, can't understand you, Context: {'previous_user_input': 'body {     font-family: Arial, sans-serif;     margin: 0;     padding: 0;     background-color: #1f1f1f; /* Dark background color */     color: #fff; /* Text color */     display: flex;     justify-content: center;     align-items: center;     height: 100vh;     max-width: 1200px; /* Set your desired maximum width here */     margin: 0 auto; /* Center the content horizontally within the maximum width */ }body {     font-family: Arial, sans-serif;     margin: 0;     padding: 0;     background-color: #1f1f1f; /* Dark background color */     color: #fff; /* Text color */     display: flex;     justify-content: center;     align-items: center;     height: 100vh;     max-width: 1200px; /* Set your desired maximum width here */     margin: 0 auto; /* Center the content horizontally within the maximum width */ }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:16:12] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:16:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:17:30] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: Why did the scarecrow become a successful politician? Because he was outstanding in his field!, Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:17:32] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: I used to be a baker, but I couldn't make enough dough., Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:17:33] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: Why don't skeletons fight each other? They don't have the guts!, Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:17:34] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:17:48] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: Parallel lines have so much in common. It's a shame they'll never meet., Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:17:51] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: Why did the bicycle fall over? Because it was two-tired!, Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:17:52] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: Parallel lines have so much in common. It's a shame they'll never meet., Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:17:52] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: I used to play piano by ear, but now I use my hands., Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:17:52] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: I'm on a seafood diet. I see food, and I eat it!, Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:17:54] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:18:02] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: I'd tell you a construction joke, but I'm still working on it., Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:18:05] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: I used to be a baker, but I couldn't make enough dough., Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:18:06] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: What did one wall say to the other wall? 'I'll meet you at the corner!', Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:18:07] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: Why did the math book look sad? Because it had too many problems., Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:18:11] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: I told my computer I needed a break, and now it won't stop sending me cookies!, Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:18:15] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:18:16] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: Ì‘, Bot Response: BB: I do not understand..., Context: {'previous_user_input': 'Ì‘'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:18:20] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Hey! How can I assist you?, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:18:22] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: .chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }, Bot Response: BB: What's orange and sounds like a parrot? A carrot!, Context: {'previous_user_input': '.chat-container {     width: 600px; /* Set the desired width */     height: 400px; /* Set the desired height */     background-color: #292b2c; /* Chat container background color */     border-radius: 10px; /* Rounded corners */     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);     overflow: hidden;     display: flex;     flex-direction: column; }'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:18:25] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:19:30] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Greetings!, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:19:35] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Good to see you again, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:19:35] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Hi There!, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:19:36] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Hello!, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:19:37] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:20:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:20:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:20:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:20:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:20:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:20:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:20:47] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: G:\Projects\ByteBot\templates\bblogo.png, Bot Response: BB: Sorry, can't understand you, Context: {'previous_user_input': 'G:\\Projects\\ByteBot\\templates\\bblogo.png'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:20:58] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:25:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:25:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:25:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:25:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:26:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:26:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:26:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:26:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:26:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:26:11] "[33mPOST /upload-image HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:26:16] "[33mPOST /upload-image HTTP/1.1[0m" 404 -
+INFO:root:User Input:  «, Bot Response: BB: Not sure I understand, Context: {'previous_user_input': ' «'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:26:18] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:26:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:27:06] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: »Ì, Bot Response: BB: Sorry, can't understand you, Context: {'previous_user_input': '»Ì'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:27:11] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:28:36] "GET / HTTP/1.1" 200 -
+INFO:root:User Input:  , Bot Response: BB: Not sure I understand, Context: {'previous_user_input': ' '}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:28:40] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: \U0001f602, Bot Response: BB: Not sure I understand, Context: {'previous_user_input': '\U0001f602'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:28:51] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:30:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:33:56] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: \U0001f600\U0001f44d, Bot Response: BB: I do not understand..., Context: {'previous_user_input': '\U0001f600\U0001f44d'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:34:01] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: \U0001f600, Bot Response: BB: Not sure I understand, Context: {'previous_user_input': '\U0001f600'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:34:12] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: \U0001f44d, Bot Response: BB: I do not understand..., Context: {'previous_user_input': '\U0001f44d'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:34:22] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:34:29] "GET / HTTP/1.1" 200 -
+INFO:root:User Input: »”Ì, Bot Response: BB: Not sure I understand, Context: {'previous_user_input': '»”Ì'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:34:31] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Greetings!, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:34:33] "POST /chat HTTP/1.1" 200 -
+INFO:root:User Input: hi, Bot Response: BB: Hey! How can I assist you?, Context: {'previous_user_input': 'hi'}
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:34:34] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 01:43:08] "GET / HTTP/1.1" 200 -
