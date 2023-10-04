@@ -58,4 +58,3 @@ This GitHub project is an AI chatbot built using Python and Flask. The chatbot u
 
 4. Access the chatbot through the provided web interface.
 
-Feel free to contribute to this project or customize it for your specific needs. Enjoy interacting with the AI chatbot!
